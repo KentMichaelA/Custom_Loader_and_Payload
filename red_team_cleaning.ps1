@@ -82,11 +82,11 @@ Write-Host ""
 # =============================================================================
 # STEP 3: Delete payload files from Public folder
 # =============================================================================
-Write-Host "[*] Step 4: Deleting payload files from Public folder..." -ForegroundColor Cyan
+Write-Host "[*] Step 3: Deleting payload files from Public folder..." -ForegroundColor Cyan
 
 $PublicFiles = @(
-    "C:\Users\Public\calca.exe",
-    "C:\Users\Public\usercpla.dll"
+    "C:\Windows\Temp\calca.exe",
+    "C:\Windows\Temp\usercpla.dll"
 )
 
 foreach ($file in $PublicFiles) {
